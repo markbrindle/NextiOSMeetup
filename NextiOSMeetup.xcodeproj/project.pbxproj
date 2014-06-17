@@ -13,6 +13,10 @@
 		4D8CE6E51950C3E300FD8164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CE6E31950C3E300FD8164 /* Main.storyboard */; };
 		4D8CE6E71950C3E300FD8164 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CE6E61950C3E300FD8164 /* Images.xcassets */; };
 		4D8CE6F31950C3E300FD8164 /* NextiOSMeetupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CE6F21950C3E300FD8164 /* NextiOSMeetupTests.m */; };
+		4D8CE7031950C8E900FD8164 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE7021950C8E900FD8164 /* NotificationCenter.framework */; };
+		4D8CE7091950C8E900FD8164 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CE7081950C8E900FD8164 /* TodayViewController.m */; };
+		4D8CE70B1950C8E900FD8164 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CE70A1950C8E900FD8164 /* MainInterface.storyboard */; };
+		4D8CE70E1950C8E900FD8164 /* Arkemm.NextiOSMeetup.NSLondon.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D8CE7001950C8E900FD8164 /* Arkemm.NextiOSMeetup.NSLondon.appex */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +27,35 @@
 			remoteGlobalIDString = 4D8CE6D51950C3E300FD8164;
 			remoteInfo = NextiOSMeetup;
 		};
+		4D8CE70C1950C8E900FD8164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D8CE6CE1950C3E300FD8164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8CE6FF1950C8E900FD8164;
+			remoteInfo = NSLondon;
+		};
+		4D8CE70F1950C8E900FD8164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D8CE6CE1950C3E300FD8164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8CE6FF1950C8E900FD8164;
+			remoteInfo = NSLondon;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D8CE7141950C8E900FD8164 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4D8CE70E1950C8E900FD8164 /* Arkemm.NextiOSMeetup.NSLondon.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4D8CE6D61950C3E300FD8164 /* NextiOSMeetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextiOSMeetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +70,12 @@
 		4D8CE6EC1950C3E300FD8164 /* NextiOSMeetupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextiOSMeetupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8CE6F11950C3E300FD8164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D8CE6F21950C3E300FD8164 /* NextiOSMeetupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextiOSMeetupTests.m; sourceTree = "<group>"; };
+		4D8CE7001950C8E900FD8164 /* Arkemm.NextiOSMeetup.NSLondon.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Arkemm.NextiOSMeetup.NSLondon.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8CE7021950C8E900FD8164 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4D8CE7061950C8E900FD8164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8CE7071950C8E900FD8164 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		4D8CE7081950C8E900FD8164 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		4D8CE70A1950C8E900FD8164 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +93,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D8CE6FD1950C8E900FD8164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8CE7031950C8E900FD8164 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +109,8 @@
 			children = (
 				4D8CE6D81950C3E300FD8164 /* NextiOSMeetup */,
 				4D8CE6EF1950C3E300FD8164 /* NextiOSMeetupTests */,
+				4D8CE7041950C8E900FD8164 /* NSLondon */,
+				4D8CE7011950C8E900FD8164 /* Frameworks */,
 				4D8CE6D71950C3E300FD8164 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +120,7 @@
 			children = (
 				4D8CE6D61950C3E300FD8164 /* NextiOSMeetup.app */,
 				4D8CE6EC1950C3E300FD8164 /* NextiOSMeetupTests.xctest */,
+				4D8CE7001950C8E900FD8164 /* Arkemm.NextiOSMeetup.NSLondon.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +165,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4D8CE7011950C8E900FD8164 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CE7021950C8E900FD8164 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D8CE7041950C8E900FD8164 /* NSLondon */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CE7071950C8E900FD8164 /* TodayViewController.h */,
+				4D8CE7081950C8E900FD8164 /* TodayViewController.m */,
+				4D8CE70A1950C8E900FD8164 /* MainInterface.storyboard */,
+				4D8CE7051950C8E900FD8164 /* Supporting Files */,
+			);
+			path = NSLondon;
+			sourceTree = "<group>";
+		};
+		4D8CE7051950C8E900FD8164 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CE7061950C8E900FD8164 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,10 +202,13 @@
 				4D8CE6D21950C3E300FD8164 /* Sources */,
 				4D8CE6D31950C3E300FD8164 /* Frameworks */,
 				4D8CE6D41950C3E300FD8164 /* Resources */,
+				4D8CE7141950C8E900FD8164 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4D8CE70D1950C8E900FD8164 /* PBXTargetDependency */,
+				4D8CE7101950C8E900FD8164 /* PBXTargetDependency */,
 			);
 			name = NextiOSMeetup;
 			productName = NextiOSMeetup;
@@ -154,6 +233,23 @@
 			productReference = 4D8CE6EC1950C3E300FD8164 /* NextiOSMeetupTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4D8CE6FF1950C8E900FD8164 /* NSLondon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8CE7111950C8E900FD8164 /* Build configuration list for PBXNativeTarget "NSLondon" */;
+			buildPhases = (
+				4D8CE6FC1950C8E900FD8164 /* Sources */,
+				4D8CE6FD1950C8E900FD8164 /* Frameworks */,
+				4D8CE6FE1950C8E900FD8164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSLondon;
+			productName = NSLondon;
+			productReference = 4D8CE7001950C8E900FD8164 /* Arkemm.NextiOSMeetup.NSLondon.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,6 +265,9 @@
 					4D8CE6EB1950C3E300FD8164 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 4D8CE6D51950C3E300FD8164;
+					};
+					4D8CE6FF1950C8E900FD8164 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -187,6 +286,7 @@
 			targets = (
 				4D8CE6D51950C3E300FD8164 /* NextiOSMeetup */,
 				4D8CE6EB1950C3E300FD8164 /* NextiOSMeetupTests */,
+				4D8CE6FF1950C8E900FD8164 /* NSLondon */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +305,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8CE6FE1950C8E900FD8164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8CE70B1950C8E900FD8164 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +337,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D8CE6FC1950C8E900FD8164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8CE7091950C8E900FD8164 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +352,16 @@
 			isa = PBXTargetDependency;
 			target = 4D8CE6D51950C3E300FD8164 /* NextiOSMeetup */;
 			targetProxy = 4D8CE6ED1950C3E300FD8164 /* PBXContainerItemProxy */;
+		};
+		4D8CE70D1950C8E900FD8164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8CE6FF1950C8E900FD8164 /* NSLondon */;
+			targetProxy = 4D8CE70C1950C8E900FD8164 /* PBXContainerItemProxy */;
+		};
+		4D8CE7101950C8E900FD8164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8CE6FF1950C8E900FD8164 /* NSLondon */;
+			targetProxy = 4D8CE70F1950C8E900FD8164 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -387,6 +513,32 @@
 			};
 			name = Release;
 		};
+		4D8CE7121950C8E900FD8164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSLondon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "Arkemm.NextiOSMeetup.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D8CE7131950C8E900FD8164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NSLondon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Arkemm.NextiOSMeetup.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,6 +564,14 @@
 			buildConfigurations = (
 				4D8CE6FA1950C3E300FD8164 /* Debug */,
 				4D8CE6FB1950C3E300FD8164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D8CE7111950C8E900FD8164 /* Build configuration list for PBXNativeTarget "NSLondon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8CE7121950C8E900FD8164 /* Debug */,
+				4D8CE7131950C8E900FD8164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
