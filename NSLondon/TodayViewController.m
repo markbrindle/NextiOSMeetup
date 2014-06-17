@@ -10,7 +10,7 @@
 #import <NotificationCenter/NotificationCenter.h>
 
 @interface TodayViewController () <NCWidgetProviding>
-
+@property (weak, nonatomic) IBOutlet UILabel *label;
 @end
 
 @implementation TodayViewController
@@ -25,7 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.label.text = @"NSLondon is happening right now!";
 }
 
 - (void)didReceiveMemoryWarning {
